@@ -1,25 +1,23 @@
 ---
-title: "Min fina titel"
+title: "Me | Design"
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/me.png?h=350" class="right" caption="Bild på mig"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Jag heter William, är 28 år och kommer från Stockholm. Jag pluggar webbprogrammering på distans
+och ser fram emot att påbörja kursen design.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Mina största intressen i livet är fotboll och musik. Fotboll spelar jag två gånger i veckan i
+olika korpenlag. Jag ägnar dessutom otaliga timmar åt att kolla på fotboll, spela FIFA samt tänka
+på fotboll. Jag följer framförallt Chelsea och Premier League.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+När det kommer till musik producerar jag egen sedan cirka 8 år tillbaka. Genren som gäller är
+för det mesta dark room techno men även annat härligt dunk fungerar bra. Jag driver en eventfirma
+där jag tillsammans med en kollega hyr ut allt man kan tänkas behöva till en fest samt även DJ-ar
+om kunden så vill.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Förra året hoppade jag på en kurs i webbprogrammering på BTH för att se om det var något för mig.
+Eftersom jag gillade det sökte jag in till programmet och här är jag nu. Ser fram emot att lära
+mig detta under dessa två år för att sedan få komma ut i arbetslivet.
