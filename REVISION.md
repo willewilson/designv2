@@ -3,7 +3,7 @@ Revision history
 
 
 
-v.1.0.0 (2019-11-11)
+v.1.0.2 (2019-11-15)
 ----------------------
 
 * Adding revision history
