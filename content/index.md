@@ -1,10 +1,20 @@
 ---
-title: "Me | Design"
+title: "Williams Me-sida"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
+
 ---
-Min me-sida i kursen design
+Williams me-sida
 =========================
 
-[FIGURE src="image/me.png?h=350" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.png?h=350" class="right" caption="Bild på mig från Spanien"]
 
 Jag heter William, är 28 år och kommer från Stockholm. Jag pluggar webbprogrammering på distans
 och ser fram emot att påbörja kursen design.

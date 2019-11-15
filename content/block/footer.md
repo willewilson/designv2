@@ -1,1 +1,1 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+© 2019 William Nordenstad samt diverse länkar som du finner relevanta.

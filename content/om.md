@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,16 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Det här är en sida för kursen design. Den är skriven med bland annat markdown och CSS.
+Designen på sidan är inspirerad av klubben DC10 på Ibiza.
 
-Skriv några kloka ord om kursen?
+Kursen ger mig lärdom i olika olika designmoment inom webbprogramering.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE class="dc-image" src=image/dc10.jpeg?w=300 caption="En bild från klubben DC10 på Ibiza."]
