@@ -8,176 +8,6 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
-/*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
- */
-/* Poor-mans normalize */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
-/* Container */
-body {
-  font-size: 1.3em;
-}
-figcaption {
-  margin-bottom: 2em;
-  font-size: 0.8em;
-}
-/* figure.figure.dc-image figcaption {
-    float: left;
-} */
-figure.figure.left,
-figure.figure.right,
-figure.figure.dc-image {
-  text-align: center;
-}
-.article {
-  width: 70%;
-  margin: 0 auto;
-  line-height: 1.5em;
-}
-.wrap-all {
-  background-color: #ccc;
-  border: solid 5px black;
-}
-.outer-wrap {
-  width: 100%;
-  overflow: auto;
-}
-.inner-wrap {
-  overflow: hidden;
-  width: 100%;
-  margin: 0 auto;
-}
-.figure.right {
-  float: right;
-  margin-left: 1em;
-}
-.figure.left {
-  float: left;
-  margin-right: 1em;
-}
-.figure.right img {
-  border: solid 5px black;
-}
-.region-flash img {
-  border-bottom: solid 5px black;
-  width: 100%;
-}
-.dc-image img {
-  border-radius: 35%;
-  border: solid 5px black;
-}
-/* Header */
-.region-header-col-1 a {
-  font-size: 1.5em;
-}
-.region-header-col-1 {
-  float: left;
-  width: 30%;
-  margin-right: 10px;
-}
-.region-header-col-2 {
-  float: left;
-  font-size: 1.2em;
-}
-.site-logo {
-  display: none;
-}
-.my-navbar {
-  padding-top: 10px;
-  list-style-type: none;
-}
-.my-navbar li {
-  display: inline;
-  padding: 2px 10px;
-}
-/* Main  */
-.inner-wrap-main {
-  padding: 30px 0;
-}
-.row::after {
-  overflow: auto;
-  clear: both;
-}
-.outer-wrap-header {
-  background-color: black;
-  min-height: 3.5em;
-}
-.outer-wrap-header a {
-  text-decoration: none;
-  color: white;
-}
-.region-sidebar-left,
-.region-sidebar-right {
-  display: inline;
-  float: left;
-  width: 28.125%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.region-main.has-sidebar-right {
-  display: inline;
-  float: left;
-  width: 65.625%;
-  margin-right: 0.52083333%;
-  margin-left: 0.52083333%;
-}
-.wrap-sidebar .block {
-  margin-bottom: 3em;
-}
-.byline {
-  border: solid 5px black;
-  width: 50%;
-  margin: 1em auto;
-  overflow: auto;
-}
-.byline h3 {
-  margin: 0.5em 1em;
-}
-.byline-text {
-  margin-top: 15%;
-}
-/* Footer */
-.outer-wrap-footer {
-  background-color: black;
-  color: white;
-}
-.footer-column {
-  display: inline;
-  float: left;
-  width: 32.29166667%;
-  margin-left: 0.52%;
-  margin-right: 0.52%;
-}
-.footer-column-wrapper {
-  padding-bottom: 1.5em;
-  margin-bottom: 4em;
-}
-/* .footer-column-1,
-.footer-column-2 {
-    border-right: 1px solid #666; */
-.inner-wrap-footer {
-  padding: 30px 0;
-}
-.region-footer > .block {
-  padding-top: 30px;
-  width: 100%;
-  text-align: center;
-}
 /**
  * Style for the stylechooser.
  */
@@ -198,8 +28,6 @@ html {
   background-color: #424242;
 }
 body {
-  margin: 0;
-  padding: 0;
   color: #333;
   background-color: #fff;
   font: 100.01%/1 serif;
@@ -208,13 +36,7 @@ body {
   font-size: 1.3em;
 }
 figcaption {
-  margin-bottom: 2em;
   font-size: 0.8em;
-}
-.article {
-  width: 70%;
-  margin: 0 auto;
-  line-height: 1.5em;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -230,6 +52,18 @@ figcaption {
 /**
  * General layout
  */
+body {
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  margin-bottom: 2em;
+}
+.article {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
 .inner-wrap {
   max-width: 1100px;
   margin: 0 auto;
@@ -301,6 +135,52 @@ my-navbar {
   width: 100%;
   text-align: center;
 }
+.figure.right {
+  float: right;
+  margin-left: 1em;
+}
+.figure.left {
+  float: left;
+  margin-right: 1em;
+}
+.region-flash img {
+  width: 100%;
+}
+.region-header-col-1 {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+}
+.region-header-col-2 {
+  float: left;
+}
+.region-sidebar-left,
+.region-sidebar-right {
+  float: left;
+  width: 28.125%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-main.has-sidebar-right {
+  float: left;
+  width: 65.625%;
+  margin-right: 0.52083333%;
+  margin-left: 0.52083333%;
+}
+.wrap-sidebar .block {
+  margin-bottom: 3em;
+}
+.byline {
+  width: 50%;
+  margin: 1em auto;
+  overflow: auto;
+}
+.byline h3 {
+  margin: 0.5em 1em;
+}
+.byline-text {
+  margin-top: 15%;
+}
 /**
  * Layout for responsive style through media queries.
  */
@@ -312,6 +192,14 @@ my-navbar {
 /**
  * Show off the regions used in the website, to ease styling.
  */
+.article {
+  background-color: black;
+  color: white;
+}
+.article code {
+  background-color: black;
+  color: white;
+}
 .regions .outer-wrap {
   background-color: #f4e3c9;
   border: 1px solid #e3b774;
@@ -340,25 +228,11 @@ my-navbar {
   border: 1px solid #6cbac4;
   color: #111;
 }
-figure.figure.left,
-figure.figure.right,
-figure.figure.dc-image {
-  text-align: center;
-}
-.figure.right {
-  float: right;
-  margin-left: 1em;
-}
-.figure.left {
-  float: left;
-  margin-right: 1em;
-}
 .figure.right img {
   border: solid 5px black;
 }
 .region-flash img {
   border-bottom: solid 5px black;
-  width: 100%;
 }
 .dc-image img {
   border-radius: 35%;
@@ -367,13 +241,7 @@ figure.figure.dc-image {
 .region-header-col-1 a {
   font-size: 1.5em;
 }
-.region-header-col-1 {
-  float: left;
-  width: 30%;
-  margin-right: 10px;
-}
 .region-header-col-2 {
-  float: left;
   font-size: 1.2em;
   color: white;
 }
@@ -384,32 +252,31 @@ figure.figure.dc-image {
 .region-sidebar-left,
 .region-sidebar-right {
   display: inline;
-  float: left;
-  width: 28.125%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
+  background: repeating-linear-gradient(45deg, black, red 100px);
+  border-radius: 2%;
+}
+.region-sidebar-left h4,
+.region-sidebar-right h4,
+.region-sidebar-left p,
+.region-sidebar-right p {
+  color: white;
+  text-align: center;
 }
 .region-main.has-sidebar-right {
   display: inline;
-  float: left;
-  width: 65.625%;
-  margin-right: 0.52083333%;
-  margin-left: 0.52083333%;
-}
-.wrap-sidebar .block {
-  margin-bottom: 3em;
 }
 .byline {
   border: solid 5px black;
-  width: 50%;
-  margin: 1em auto;
-  overflow: auto;
 }
-.byline h3 {
-  margin: 0.5em 1em;
+div.next a,
+.breadcrumb-list a {
+  border: 2.5px solid black;
+  background: black;
 }
-.byline-text {
-  margin-top: 15%;
+.previous a {
+  border: 2.5px solid white;
+  background: white;
+  color: black;
 }
 /**
  * My own settings, not currently in their own module.
