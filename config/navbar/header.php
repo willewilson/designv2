@@ -49,6 +49,20 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport/index",
+            "title" => "Rapporter",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/färgschema",
+                        "title" => "Färgschema",
+                    ],
+                ],
+            ],
+        ],
+        [
             "text" => "Test",
             "url" => "test",
             "title" => "Testsida för Markdowns samverkan med HTML.",

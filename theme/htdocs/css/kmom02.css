@@ -346,6 +346,9 @@ body {
 figcaption {
   font-size: 0.8em;
 }
+a {
+  color: black;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -503,6 +506,7 @@ my-navbar {
 .article {
   background-color: black;
   color: white;
+  text-align: center;
 }
 .article code {
   background-color: black;
@@ -538,6 +542,7 @@ my-navbar {
 }
 .figure.right img {
   border: solid 5px black;
+  height: 20em;
 }
 .region-flash img {
   border-bottom: solid 5px black;
@@ -572,9 +577,6 @@ my-navbar {
 }
 .region-main.has-sidebar-right {
   display: inline;
-}
-.byline {
-  border: solid 5px black;
 }
 div.next a,
 .breadcrumb-list a {

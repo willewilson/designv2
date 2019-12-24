@@ -14,7 +14,7 @@ views:
 Williams me-sida
 =========================
 
-[FIGURE src="image/me.png?h=350" class="right" caption="Bild på mig från Spanien"]
+[FIGURE src="image/me.png?h=350" class="right" class="byline-img"]
 
 Jag heter William, är 28 år och kommer från Stockholm. Jag pluggar webbprogrammering på distans
 och ser fram emot att påbörja kursen design.

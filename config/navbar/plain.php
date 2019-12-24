@@ -34,6 +34,11 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapport",
+        ],
+        [
             "text" => "Test",
             "url" => "test",
             "title" => "Testsida för Markdowns samverkan med HTML.",

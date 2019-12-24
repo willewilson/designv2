@@ -24,4 +24,4 @@ Designen på sidan är inspirerad av klubben DC10 på Ibiza.
 
 Kursen ger mig lärdom i olika olika designmoment inom webbprogramering.
 
-[FIGURE class="dc-image" src=image/dc10.jpeg?w=300 caption="En bild från klubben DC10 på Ibiza."]
+[FIGURE class="dc-image" src=image/dc10.jpeg?w=300]
